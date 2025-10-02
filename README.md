@@ -1,4 +1,7 @@
 # Modeling the Universe Tutorial
+
+This is a tutorial going over some computational workflow basics that will be useful for students in GU4260 Modeling the Universe course in the Columbia Astronomy Department.
+
 ## `git`, GitHub, + Code Development Basics
 
 Ana Lam
