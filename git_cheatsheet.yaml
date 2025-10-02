@@ -1,0 +1,50 @@
+git_cheat_sheet:
+  navigation:
+    - command: "pwd"
+      description: "Print working directory"
+    - command: "ls"
+      description: "List files in current directory"
+    - command: "cd <folder>"
+      description: "Navigate into folder"
+    - command: "cd .."
+      description: "Go up one folder"
+
+  repo_setup:
+    - command: "git clone <url>"
+      description: "Clone a repository into a new directory"
+    - command: "git status"
+      description: "Show working tree status"
+    - command: "git pull origin main"
+      description: "Fetch and merge changes from remote main branch"
+
+  staging_committing:
+    - command: "git add <file>"
+      description: "Stage changes for commit"
+    - command: "git commit -m 'message'"
+      description: "Commit staged changes with message"
+    - command: "git log --oneline"
+      description: "View commit history in one-line format"
+
+  pushing:
+    - command: "git push origin main"
+      description: "Push commits on main to remote repository"
+    - command: "git push -u origin <branch>"
+      description: "Push new branch to remote and track it"
+
+  branching:
+    - command: "git branch -a"
+      description: "List all local and remote branches"
+    - command: "git checkout -b <branch>"
+      description: "Create and switch to a new branch"
+    - command: "git checkout <branch>"
+      description: "Switch to an existing branch"
+    - command: "git merge <branch>"
+      description: "Merge specified branch into current branch"
+
+  undoing_changes:
+    - command: "git restore <file>"
+      description: "Discard changes in working directory"
+    - command: "git reset --soft HEAD~1"
+      description: "Undo last commit but keep changes staged"
+    - command: "git reset --hard HEAD~1"
+      description: "Completely undo last commit and discard changes"

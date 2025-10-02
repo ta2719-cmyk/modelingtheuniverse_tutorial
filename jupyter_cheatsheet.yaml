@@ -1,0 +1,4 @@
+jupyter_cheat_sheet:
+  launching:
+    - command: "jupyter notebook"
+      description: "Launch classic Jupyter Notebook (requires 'notebook' package)"
